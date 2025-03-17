@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidhbali Childcare Hospital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <header class="bg-blue-900 text-white p-5 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Sidhbali Childcare Hospital</h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#" class="hover:text-gray-300">About</a></li>
+                <li><a href="#" class="hover:text-gray-300">Services</a></li>
+                <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="relative bg-blue-800 text-white text-center py-20">
+        <h2 class="text-4xl font-bold">Baby Infections</h2>
+    </section>
+
+    <section class="p-10 max-w-6xl mx-auto">
+        <h3 class="text-red-600 font-semibold">Infectious Diseases</h3>
+        <h2 class="text-3xl font-bold my-4">We Offer A State-Of-The-Art Laboratory With Rapid Diagnostic Tests</h2>
+        <p class="text-gray-700">Our hospital provides top-notch infectious disease treatment with modern equipment.</p>
+        
+        <div class="grid md:grid-cols-2 gap-6 mt-6">
+            <img src="https://source.unsplash.com/400x300/?child,healthcare" alt="Childcare" class="rounded-lg shadow-lg floating">
+            <img src="https://source.unsplash.com/400x300/?doctor,hospital" alt="Doctor with Child" class="rounded-lg shadow-lg floating">
+        </div>
+    </section>
+    
+    <section class="bg-yellow-100 py-10 px-5 overflow-hidden">
+        <div class="max-w-6xl mx-auto flex space-x-6 overflow-x-auto scrollbar-hide">
+            <img src="https://source.unsplash.com/400x300/?baby,care" class="rounded-lg shadow-lg min-w-[300px] hover:scale-110 transition-transform duration-300">
+            <img src="https://source.unsplash.com/400x300/?pediatrician,child" class="rounded-lg shadow-lg min-w-[300px] hover:scale-110 transition-transform duration-300">
+            <img src="https://source.unsplash.com/400x300/?hospital,child" class="rounded-lg shadow-lg min-w-[300px] hover:scale-110 transition-transform duration-300">
+        </div>
+    </section>
+
+    <section class="bg-green-50 py-10 px-5">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">
+            <div>
+                <h3 class="text-green-800 font-semibold text-center">Contact Us</h3>
+                <h2 class="text-3xl font-bold my-4 text-green-900 text-center">Schedule A Visit</h2>
+                <p class="text-gray-700 text-center">Dictum fusce ut placerat orci nulla pellentesque dignissim enim.</p>
+                <form class="bg-yellow-100 p-6 rounded-lg mt-6">
+                    <div class="grid grid-cols-2 gap-4">
+                        <input type="text" placeholder="Your Name" class="p-2 w-full border rounded">
+                        <input type="text" placeholder="Phone Number" class="p-2 w-full border rounded">
+                    </div>
+                    <input type="email" placeholder="Your Email" class="p-2 w-full border rounded mt-4">
+                    <textarea placeholder="Your Message" class="p-2 w-full border rounded mt-4"></textarea>
+                    <button class="bg-blue-900 text-white py-2 px-4 rounded mt-4 w-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-blue-900 text-white py-10 px-5 text-center">
+        <p class="text-lg font-semibold">Baby Doctor</p>
+        <p>Dehradun, Uttarakhand</p>
+        <p>&copy;2022 - Baby Doctor Template Kit by Bimber Online</p>
+        <div class="mt-4">
+            <a href="#" class="text-white mx-2">Terms & Conditions</a> |
+            <a href="#" class="text-white mx-2">FAQ</a>
+        </div>
+    </footer>
+</body>
+</html>
